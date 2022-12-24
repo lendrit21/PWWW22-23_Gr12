@@ -391,3 +391,80 @@ margin-top: 20px;
 	padding-top:15px;
 
 }
+
+/*------FOOTER-------*/
+.footer{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: blue;
+	margin-top: 60px;
+	background: linear-gradient(to top, #0f5291 30%, #1061ad 30%);
+	margin-bottom: 150px;
+	padding-left: 120px;
+	padding-right: 100px;
+}
+.footer .get-started .started{
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 80px;
+	color: white;
+}
+.footer .get-started .paragraph-1{
+	font-size: 10px;
+	font-family: sans-serif;
+	font-weight: normal;
+	color: #fcfcfc;
+	padding: 15px 250px 20px 250px;
+}
+
+.footer .get-started form{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.footer .get-started form input {
+	border-bottom: 1px solid white;
+	background-color: #1061ad;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding: 5px 100px 5px 100px;
+margin-bottom: 20px;
+text-align: center;
+vertical-align: middle;
+}
+
+.footer .get-started form button{
+	background-color: white;
+	border: none;
+	border-radius: 2px;
+	padding: 8px 12px 8px 12px;
+	color: #1061ad;
+	font-size: 10px;
+	font-family: sans-serif;
+	font-weight:600;
+	text-align: center;
+	vertical-align: middle;
+   cursor: pointer;
+   margin-bottom: 150px;
+}
+.footer .social-media{
+	text-align: center;
+}
+.footer .social-media p{
+	color: #e0e3e2;
+	font-size: 10px;
+	font-family: sans-serif;
+	padding-bottom: 50px;
+
+}
+.footer .social-media i{
+	color: #e0e3e2;
+	padding: 10px;
+	margin-bottom: 10px;
+}
