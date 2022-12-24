@@ -246,3 +246,148 @@ margin-bottom: 30px;
 	font-family: sans-serif;
 	font-weight: normal;
 }
+
+/*kodi ne CSS per pjesen who we serve ne webfaqe*/
+.serve{
+width: 100%;
+
+}
+.serve article{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 50px;
+	margin-top: 50px;
+	margin-left: 300px;
+
+}
+.serve #p3{
+	font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.serve .p4{
+	font-family: sans-serif;
+	font-size: 12px;
+    width: 380px;
+    margin-top: 30px;
+    margin-left: 500px;
+    color: #7E7E7E;
+}
+.serve .p5{
+	font-family: sans-serif;
+	font-size: 12px;
+    width: 450px;
+    margin-left: 480px;
+    color: #7E7E7E;
+}
+.serve article figure{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.serve article figure img{
+	width: 80px;
+	height: 80px;
+}
+.serve article figure figcaption{
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: 700;
+	margin-top: 15px;
+}
+/*kodi ne CSS per pjesen e webfaqes WHATS NEW*/
+
+.whats-new .whats{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 80px;
+}
+
+}
+figure{
+	margin: 0;
+	padding: 0;
+}
+.card{
+	background: white;
+	margin-bottom: 32px;
+	padding: 0;
+}
+.card-content p{
+	padding: 0.5em 1.5em 0 1.5em;
+	font-size: 13px;
+	color:#7E7E7E;
+	margin-bottom: 30px;
+}
+.card-content .p-calendar span{
+margin-left: 20px;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card{
+	width: calc((100%/4) - 1%);
+	padding: 10px;
+	border: 1px solid #F6F6F6;
+
+}
+.cards{
+	display: flex;
+	justify-content:center;
+	flex-wrap:wrap ;
+}
+
+img{
+	max-width: 100%;
+}
+.card img:hover{
+	filter: saturate(200%);
+}
+.card-content .read-button{
+color: red;
+text-decoration: none;
+text-transform:uppercase;
+font-size: 12px;
+font-family: sans-serif;
+vertical-align: middle;
+margin-left: 20px;
+}
+.card-content .read-button i{
+	margin-left: 150px;
+	color: black;
+}
+.card-content{
+margin-top: 20px;
+}
+.card:hover{
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+.card-content .heading-1{
+	color: black;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.card-content .p-calendar{
+	color:#7E7E7E;
+	font-size: 12px;
+	font-family: sans-serif;
+	margin-bottom: 0;
+}
+.border-button{
+	border-top: 1px solid #e6e6e6;
+	padding-top:15px;
+
+}
