@@ -468,3 +468,163 @@ vertical-align: middle;
 	padding: 10px;
 	margin-bottom: 10px;
 }
+
+/*login form (become customer)*/
+
+#login-btn .btn{
+    margin-top: 0;
+}
+
+#login-btn i{
+    display: none;
+    font-size: 2.5rem;
+}
+
+.header.active{
+    padding:2rem 9%;
+}
+
+#menu-btn{
+    font-size: 2.5rem;
+    color:var(--light-color);
+    display: none;
+}
+.login-form-container{
+    position: fixed;
+    top:-150%;
+     left:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:rgba(255,255,255,.9);
+    z-index: 10000;
+}
+.login-form-container .form {
+	width: 380px;
+	height: 640px;
+	background-color:#fff;
+	position: relative;
+	padding: 5px;
+	overflow: hidden;		
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn{
+padding: 10px 30px;
+cursor: pointer;
+background: transparent;
+border: 0;
+outline: none;
+position: relative;
+}
+
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+   width: 110px;
+   height: 100%;
+   background:linear-gradient(to right,#ff105f,#ffad06);
+   border-radius: 30px;
+   transition: 0.5s;
+}
+.social-icons{
+	margin-bottom: 510px;
+	text-align: center;
+}
+.social-icons img{
+	width: 30px;
+	margin: 0 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.input-group{
+top: 180px;
+position: absolute;
+width: 280px;
+transition: 0.9s;
+}
+.input-field{
+width: 100%;
+padding: 10px 0;
+margin: 5px 0;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 1px solid #999;
+outline: none;
+background: transparent;
+}
+.submit-btn{
+width: 85%;
+padding: 10px 30px;
+cursor: pointer;
+display: block;
+margin: auto;
+background: linear-gradient(to right,#ff105f,#ffad06);
+outline: none;
+border: 0;
+border-radius: 30px;	
+}
+.check-box{
+margin: 20px 10px 0 0;
+}
+.check-box span{
+color: #777;
+font-size: 12px;
+font-family: sans-serif;
+bottom: 68px;
+position: absolute;
+}
+#login{
+left: 50px;
+}
+#register{
+left: 450px;
+}
+.input-group p{
+	padding-top: 10px;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+.input-group p a{
+font-size: 16px;
+font-family: sans-serif;
+color: black;
+text-decoration: none;
+}
+.input-group p a:hover{
+transition: .3s;
+	border-bottom: 3px solid orange;
+}
+
+.login-form-container.active{
+    top:0;
+}
+
+.login-form-container .form{
+	 display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+
+.login-form-container #close-login-form{
+    position: absolute;
+    top:1.5rem; right:2.5rem;
+    font-size: 5rem;
+    cursor: pointer;
+}
+/*end of login form(become customer)*/
