@@ -23,6 +23,7 @@
 </head>
 <body>
 <header>
+	<div id="menu-btn" class="fas fa-bars"></div>
 	<!--Krijimi i NavBar-it -->
 <a href="#" class="logo">D<span>METRICS</span></a>
 <div class="navbar">
@@ -38,6 +39,45 @@
 </div>
 </header>
 <main>
+	<!-- login form (become customer) -->
+<div class="login-form-container">
+    <span id="close-login-form" class="fas fa-times"></span>
+     
+    <div class="form">
+        <div class="button-box">
+        	<div id="btn"></div>
+        	<button type="button" class="toggle-btn" onclick="login()">Login</button>
+        	<button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <div class="social-icons">
+        	<a href="https://www.facebook.com/" target="_blank"><img src="login-form-images/fb.png"></a>
+         	<a href="https://accounts.google.com/Login" target="_blank"><img src="login-form-images/gp.png"></a>
+        	<a href="https://twitter.com" target="_blank"><img src="login-form-images/tw.png"></a>
+
+        </div>
+        <form action="" id="login" class="input-group">
+        	<input type="text"  placeholder="enter your username or email" class="input-field">
+        <input type="password" placeholder="enter your password" class="input-field">
+        <p> forget your password <a href="#">click here</a> </p>
+         <p> don't have an account <a href="#">create one</a> </p>
+         <input type="checkbox" class="check-box"><span>Rembember password</span>
+        <button type="submit" class="submit-btn">Log in</button> 
+        </form>
+        <form action="" id="register" class="input-group">
+        	<input type="text"  placeholder="enter your name" class="input-field">
+        <input type="text" placeholder="enter your surname" class="input-field">
+        <input type="number" placeholder="enter your age"  min=18 max=100 class="input-field">
+        <input type="text" placeholder="enter your username" class="input-field">
+        <input type="email" placeholder="email" class="input-field">
+        <input type="password" placeholder="enter your password" class="input-field">
+        <input type="password" placeholder="repeat your password" class="input-field">
+         <input type="checkbox" class="check-box"><span>I agree to the terms of conditions</span>
+        <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+</div>
+<!--end of login form (become customer)  -->
+	
 	<div class="home">
 		<article>
 			<h1 class="heading">optimization.<br>efficiency.<br>cost savings.</h1>
