@@ -1,0 +1,241 @@
+/*krijimi i buton-it per faqen responsive*/
+
+#icon{
+	color: black;
+	float: right;
+	margin-right: 40px;
+	font-size: 30px;
+	cursor: pointer;
+display: none;
+}
+
+
+
+/*krijimi per responsive webpage*/
+
+@media(max-width:991px) {
+	html{
+	font-size: 60%;
+}
+header{
+	padding: 2rem ;
+}
+	
+}
+
+@media(max-width:768px) {
+/*	shfaqja e butonit*/
+header #icon{
+	display: block;
+	margin-bottom: 100px;
+}
+
+/*stilizimi i header-it ne forme responsive*/
+header .logo{
+	margin-left: 20px;
+	margin-bottom: 150px;
+	font-size: 30px;
+	text-align: center;
+}
+header .navbar ul{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: blue;
+	top: 150px;
+	left: -100%;
+	text-align: center;
+	transition: all 0.5s;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .navbar ul li a{
+	font-size: 20px;
+	text-align: center;
+}
+header .navbar ul li .button{
+	margin-left: 50px;
+}
+header .navbar ul.show{
+	left: 0;
+}
+/*stilizimi i main (pjeses fillestare) ne faqe responsive */
+main .home {
+    width: 100%;
+    height: 600px;
+    margin:150px 20px;
+}
+main .home article {
+    margin-left: 200px;
+    margin-bottom: 0;
+}
+main .home article .heading {
+    padding-left: 80px;
+    padding-top: 150px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+main .home article p {
+    padding-left: 80px;
+}
+main .home article .button {
+    margin-left: 80px;
+}
+main .home article ul li{
+ margin-top: 200px;
+ margin-right: -450px;
+ margin-left: 165px;
+ padding-right: 50px; 
+}
+
+/*stilizimi i pjeses se desktopit ne faqe responsive*/
+#desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#desktop img {
+    margin-left: 200px;
+    width: 400px;
+    height: 350px;
+}
+#desktop p {
+    width: 400px;
+    font-size: 24px;
+    color: #7E7E7E;
+    margin-left: 200px;
+}
+#desktop p span {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+#desktop p .button {  
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    margin-top: 35px;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-left:20px;
+     padding: 15px 30px;
+}
+
+/*stilizimi i imazheve te bartura ne responsive */
+.logo-image {
+    margin-left: 100px;
+    gap: 50px;
+    margin-top: 100px;
+}
+.logo-image img {
+    width: 100px;
+    height: 100px;
+}
+
+/*stilizimi i pjeses se laptopit ne webfaqe (faqe responsive)*/
+.laptop table tr td{
+    display:block;
+}
+.laptop table tr td #p1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.laptop table tr td .p2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #7E7E7E;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.laptop table tr td .button {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-left:40px;
+    padding: 15px 30px;
+}
+.laptop table tr td img{
+   width: 600px;
+   height: 300px;
+   margin-left: -50px;
+}
+
+/*stilizimi i pjeses -who we serve- ne faqe responsive*/
+.serve #p3 {
+    font-size: 40px;
+margin-left: 100px
+}
+.serve .p4 {
+    font-size: 24px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.serve .p5 {
+    font-size: 24px;
+    width: 450px;
+    margin-left: 250px;  
+}
+.serve article {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+/*stilizimi i pjeses whats new ne faqe responsive */
+.whats-new .whats {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    padding: 10px;
+    border: 1px solid #F6F6F6;
+    margin-bottom: 32px;
+    width: 400px;
+    height: 400px;
+}
+
+/*stilizimi i footer-it ne faqe responsive*/
+.footer{
+	margin-bottom: 60px;
+	padding-left: 90px;
+    padding-right: 90px;
+}
+.footer .get-started .started {
+    font-size: 40px;
+   }
+.footer .get-started .paragraph-1 {
+    font-size: 18px;
+    padding: 35px 60px 30px 60px;
+}
+.footer .get-started form {
+    padding: 20px;
+}
+.footer .get-started form button {
+	margin-bottom: 70px;
+}
+.footer .social-media i {
+zoom: 2;
+}
+.footer .social-media p{
+	font-size: 14px;
+	padding-bottom: 30px;
+}
+}
