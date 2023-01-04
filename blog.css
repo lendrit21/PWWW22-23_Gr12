@@ -1,0 +1,30 @@
+*stilizimi i blog-ut*/
+main{
+margin: 200px 20px;
+padding: 10px;
+ 
+}
+.blogs{
+	border-top: 3px solid #E2D1C3;
+	border-bottom: 3px solid #E2D1C3;
+	border-right: none;
+	border-left: none;
+}
+.blog1{
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+padding: 30px;
+	border-radius: 10px;
+/*	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
+margin-top:30px ;
+}
+.blog1 img{
+	width: 300px;
+	height: 400px;
+border: 1px solid red;
+border-radius: 10px;
+}
+.blog1 p{
+	padding: 30px 50px 10px 10px;
+}
