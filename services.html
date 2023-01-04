@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/442484c489.js" crossorigin="anonymous"></script>
+		<!--link to CSS-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="services.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<title>Services</title>
+	<!-- jquery code -->
+	<script src="https://kit.fontawesome.com/442484c489.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.2.js"></script>
+		<script>
+		$(document).ready(function(){
+			$('#icon').click(function(){
+				$('ul').toggleClass('show');
+			});
+		});
+		</script>
+		<!-- end of jquery code -->
+
+	<script>
+		function toggle(){
+			var x=document.getElementById("lista1");
+			if(x.style.display ==="none"){
+				x.style.display="block";
+			}
+			else{
+				x.style.display="none";
+			}
+
+		}
+
+		function toggle2(){
+			var x=document.getElementById("lista2");
+			if(x.style.display ==="none"){
+				x.style.display="block";
+			}
+			else{
+				x.style.display="none";
+			}
+
+		}
+
+		function toggle3(){
+			var x=document.getElementById("lista3");
+			if(x.style.display ==="none"){
+				x.style.display="block";
+			}
+			else{
+				x.style.display="none";
+			}
+
+		}
+
+
+	</script>
+</head>
+<body>
+<header>
+
+	<div id="menu-btn" class="fas fa-bars"></div>
+
+	<!--Krijimi i NavBar-it -->
+<a href="index.html" class="logo">D<span>METRICS</span></a>
+<div class="navbar">
+	<ul>
+	<li><a href="services.html">Services</a></li>
+	<li><a href="features.html">Features</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="aboutUs.html">About Us</a></li>
+    <li><a href="contactUs.html">Contact</a></li>
+    <li><a href="#become" id="login-btn" class="button">become a customer</a></li>     
+</ul>
+
+<!-- krijimi i butonit per faqen responsive -->
+
+</div>
+<label id="icon"> 
+		<i class="fas fa-bars"></i>
+	</label>
+</header>
+<main>
+	<!-- kodi per pjesen who serve ne webfaqe -->
+<div class="serve">
+	<p id="p3">who we serve</p>
+         <article>
+         	<figure>
+       	<a href="#healthcare"><img src="Images/healthcare.jpg"></a>
+       	<figcaption>01. Healthcare</figcaption>
+       </figure>
+         <figure>
+       <a href="#manufacturing"><img src="Images/manufacturing.jpg"></a>
+        <figcaption>02. Manufacturing</figcaption>
+       </figure>
+         <figure>
+        <a href="#corporate"><img src="Images/corporate.jpg"></a>
+        <figcaption>03. Corporate</figcaption>
+       </figure>
+        <figure>
+<a href="#hospitality"><img src="Images/hospitality.jpg"></a>
+        <figcaption>04. Hospitality</figcaption>
+       </figure>
+         </article>
+         </div>
+
+         <!-- healthcare section -->
+     <section class="lab-section" id="healthcare">
+	<article class="lab-service">
+		<h1>Laboratory and Diagnostics Services</h1>
+	</article>
+	<div class="lab-paragraph">
+		<p>At Instant Urgent Care, we provide a variety of lab and diagnostics services to help diagnose your medical conditions efficiently and effectively.</p>
+		<p>Our urgent care centers are equipped with their own medical laboratories, diagnostics equipment, and other tools to help identify your most pressing medical concerns. Think you flu? Come visit your nearest Instant Urgent Care facility without the need for an appointment to get a rapid flu test and evaluation. Each center also has a licensed medical provider staffed to help administer a treatment plan on top of evaluating the severity of a new injury.</p>
+		<p>For your convenience, we also offer onsite lab services. This helps our doctors to diagnose and treat your urgent medical condition as quickly as possible. And it also allows us to perform a wide variety of preventative health screenings in our office. Our patients can receive all of their care in one location, instead of driving all over town. Here are some examples of our services:</p>
+		<ul>
+			<li><a href="pricing.html">Blood testing</a></li>
+			<li><a href="pricing.html">STD Testing</a></li>
+			<li><a href="pricing.html">Mononucleosis testing</a></li>
+			<li><a href="pricing.html">Urinalysis</a></li>
+			<li><a href="pricing.html">Drug Screenings</a></li>
+		</ul>
+		<p>For more information about the services we provide, please call to speak with one of our medical professionals at (408) 687-4806, or stop by today!
+        </p>
+	</div>
+</section>
+
+<!-- manufacturing section -->
+
+<section class="manufacturing-section" id="manufacturing" style="margin-top:30px ;">
+	<article class="manufacturing-heading">
+		<h1>Manufacturing</h1>
+	</article>
+	<div class="manufacturing-divide">
+				<h3>Turnkey Service Solutions for Your Industry</h3>
+				<p class="manufacturing-paragraph">Medical Products Laboratories, Inc. (MPL) offers comprehensive, full service contract manufacturing and packaging services primarily focused in the pharmaceutical, veterinary, and dietary supplement industries. Boasting almost 90 years of experience as a leader in quality, expertise and value among domestic contract manufacturing and packaging companies, MPL's comprehensive service offerings positions the company as uniquely qualified to handle all aspects of product life cycle from concept to end-stage production.
+				We are focused in:</p>
+<ul class="manufacturing-list">
+	<li onclick="toggle()" id="li-first">Pharmaceutial</li>
+</ul>
+<div class="manufacturing-list-paragraph">
+<p id="lista1">Medical Products Laboratories, Inc. (MPL) is a leading full-service human and veterinary pharmaceutical contract manufacturing and packaging company which provides an array of services to its US- and international-based clients. Having served the industry since 1928, MPL has established an excellent reputation and is recognized as a full service provider to the pharmaceutical industry. MPL can turn today’s complex pharmaceutical development process into a practical, economical, and manageable experience through its professional expertise and project management services. From the initial development of a pharmaceutical formulation through scale-up of the pilot and commercial phases, MPL’s regulatory and compliance teams will guide you through the latest FDA regulations while the business teams work to keep the project on time and on budget.
+MPL dedicates resources to monitoring the constantly changing FDA guidelines, helps its clients understand the regulations relevant to their products, and apply them rationally and practically. The pharmaceuticals MPL produces meet cGXP compliance standards, and our quality management systems have adopted the principals of ISO 9000 & 13485. MPL is a non-sterile facility with an extensive environmental monitoring program. Manufacturing suites are HEPA filtered and pressurized, with dedicated areas to handle more hazardous products such as corticosteroids to prevent cross contamination.</p>
+<ul class="manufacturing-list">
+	<li onclick="toggle2()" id="li-second">Veterinary</li>
+</ul>
+<p id="lista2">Medical Products Laboratories, Inc. (MPL) is one of the leading full-service veterinary medicine and products contract manufacturers and packagers in the U.S.
+Veterinary cosmetic product development and formulation is subject to a similar range of regulatory approvals and requirements, and as an experienced veterinary products manufacturer, MPL offers the wide range of capabilities necessary for both veterinary cosmetic contract manufacturing and veterinary medicine manufacturing. While veterinary cosmetics are widely used for a variety of applications, and can be delivered in a number of different formats, it is important that all products meet strict guidelines for safe use to ensure that both the animals and those applying these products are out of harm’s way. MPL streamlines the clearance and approval process for FDA certification, and helps customers understand the regulations that apply to their particular veterinary cosmetic product development and formulation process.
+In addition to the regulatory expertise required for high quality veterinary cosmetic contract manufacturing, MPL possesses all of the advanced capabilities necessary, from the initial development through the scale-up of pilot and commercial phases.
+Veterinary Medicine and Products Manufacturers
+MPL is a non-sterile facility that maintains an extensive environmental monitoring program, with manufacturing suites filtered and pressurized for state-of-the-art environmental controls. Because de-ionized water is at the core of manufacturing pharmaceuticals, it is one of most important raw materials in veterinary cosmetic product development and formulations as well. Duplicate DI water systems feature an on-demand supply with online Total Organic Carbon detection. MPL manufactures all types of animal drug products including ANADA, prescription, and OTC, in dosage forms that vary from liquids to semi-solids to solids.</p>
+<ul class="manufacturing-list">
+	<li onclick="toggle3()" id="li-third">Dietary Supplement</li>
+</ul>
+<p id="lista3">Medical Products Laboratories, Inc. (MPL) provides exceptional full-service nutraceutical and dietary supplement contract manufacturing and packaging. The technology required for high quality supplement contract manufacturing closely parallels that of other types of pharmaceutical manufacturing, and MPL’s long standing reputation as one of the leading pharmaceutical manufacturing and packaging companies in the country places it as the best choice for nutraceutical contract manufacturing as well. Our FDA-certified facility is prepared to conduct any type of medical manufacturing and packaging project, including dietary supplements, veterinary products, pharmaceuticals, medical devices, and more. Offering the most diverse and professional range of services for medical manufacturing and packaging available, MPL combines the capability to test, manufacture, format, package, and deliver products that meet all of the applicable regulatory requirements for dosage precision, consistency, and safety.
+MPL currently works with more than 100 different vitamins and minerals, and we maintain the regulatory and compliance status for each and every one of these supplements, as well as their stability profiles. Because of our role as one of the most reliable pharmaceutical manufacturing and packaging companies for regulatory compliance, MPL is already well positioned to handle the often changing compliance standards for nutraceuticals and dietary supplements as well. MPL meets all cGXP and ISO 9000 and 13485 compliance standards, and our highly trained staff is ready to conduct any type of lab work necessary for testing drug products in any stage of their development.</p>
+	</div>
+</div>
+</section>
+
+<!-- corporate section -->
+
+<section class="corporate-section" id="corporate">
+	<div class="corporate-divide">
+		<h2>Corporate Healthcare</h2>
+<h4>Leaders in corporate healthcare.</h4>
+<p>We are committed to providing a wide range of quality corporate healthcare services that both engages and empowers your employees, playing a central role in creating a thriving organisation. The evidence suggests those employees who can achieve and maintain good standards of health and wellbeing are more likely to be more creative, more loyal, more productive and provide better customer service.
+As the costs associated with emotional and physical health problems escalate, absenteeism and presenteeism are becoming increasing concerns. The on-going challenge of sustaining employee engagement and performance in the wake of a global pandemic, and the intense work pressure it has brought, will continue to take its toll on all employees for a significant period of time.
+We believe our wide range of corporate healthcare services, will enable your organisation to develop a culture of health. A culture that provides quality and accessible healthcare services to all employees. Through seamless service delivery we will ensure your employees receive the correct support from the right clinicians/professionals at all times.
+There are six strategic drivers that help to drive the rationale for investing in a corporate healthcare strategy:</p>
+	</div>
+	<div class="corporate-cart">
+		<figure>
+			<img src="service-image/health.jpg">
+			<figcaption>
+				<span>1) Developing a health culture</span>
+				 a definition that encompasses emotional and physical health
+			</figcaption>
+		</figure>
+
+		<figure>
+			<img src="service-image/talent.jpg">
+			<figcaption>
+				<span>2) Focus on the war for talent</span>
+				being an employer of choice, retaining key talent for the organisation
+			</figcaption>
+		</figure>
+
+		<figure>
+			<img src="service-image/perfomers.jpg">
+			<figcaption>
+				<span>3) Sustaining high performers</span>
+				 ensuring those employees required to perform at high levels are supported
+			</figcaption>
+		</figure>
+
+		<figure>
+			<img src="service-image/productivity.jpg">
+			<figcaption>
+				<span>4) Managing productivity and absence control</span>
+          controlling costs associated with the deployment of human resources
+			</figcaption>
+		</figure>
+
+		<figure>
+			<img src="service-image/risk-managment.jpg">
+			<figcaption>
+				<span>5) Ensuring compliance and risk management</span>
+         concern over the required duty of care for employees
+			</figcaption>
+		</figure>
+
+		<figure>
+			<img src="service-image/controlling-the-cost.jpg">
+			<figcaption>
+				<span>6) Controlling the cost of ill health provision</span>
+          reducing all costs associated with employee health
+			</figcaption>
+		</figure>
+	</div>
+		<p>We look forward to working with you to develop and enhance your corporate healthcare strategy. </p>
+</section>
+
+<!-- hospitality section -->
+
+<section class="hospitality-section" id="hospitality">
+	<div class="hospitality-divide1">
+		<h2>Hospitality is Who We Are.</h2>
+		<p>Hospitality Services Group is a premier hospitality support company that provides high-level professional personnel in the hospitality industry.</p>
+	</div>
+	<div class="hospitality-divide2">
+		<h2>Hospitality Services Group</h2>
+		<p>All personnel placed by Hospitality Services Group go through a rigorous screening and training process that gives them the opportunity to develop their skill levels to provide our clients a high level of service. Hospitality Services Group provides a full range of services from the front of the house to the back of the house.</p>
+	<div class="hospitality-divide3">
+		<p><span>Diversified Cleaning Program</span>
+		Provides innovative and customizable cleaning services for casino, hotels, convention centers, stadiums, and resorts.
+	   </p>
+		<p><span>International Program</span>
+		Recruiting  globally and setting up recruiting sites internationally to interview and screen students from all over the world.</p>
+		<p><span>Private Services</span>
+		Over 35 years of planning parties and special events experience. A division to support private home events and VIP events.</p>
+		<p><span>Executive Services</span>
+		We specialize in identifying, evaluating, and placing leadership and management talent in the hospitality industry.
+    </p>
+		<p><span>On-Site Services</span>
+		Our cutting edge software applications to streamline communication with our clients when the need for human resources arise.</p>
+		<p><span>Managed Services Program(MSP)</span>
+		Improve your contingent workforce management program, reduce your labor spend and ensure compliance.</p>
+	</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+
+<footer class="footer">
+	<div class="get-started">
+		<p class="started">get started now</p>
+		<p class="paragraph-1">Proin gravida nibh vel auctor aliquet.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet</p>
+		 <form>
+		 	<input type="text" name="email" placeholder="YOUR EMAIL">
+		 	<button>GET STARTED</button>
+		 </form>
+	</div>
+	<div class="social-media">
+       <i class="fa-brands fa-facebook-f"></i>
+       <i class="fa-brands fa-twitter"></i>
+       <i class="fa-brands fa-square-instagram"></i>
+       <i class="fa-brands fa-youtube"></i>
+		<p>&copy; Copyright 2022 DMetrics. All Rights Reserved. Design by TemplatesJungle.</p>
+	</div>
+</footer>
+<!-- Javascript code -->
+<!-- ndrrimi i nje pjese te background me ngjyra me ane te javascript-it-->
+<script type="text/javascript">
+	var color = ["red","blue","green","#305170","#DD2476","#FF61D2","#FE9090","#E2D1C3","#FF3E9D"];
+	var i=0;
+	document.querySelector(".lab-service").addEventListener("click",function(){
+		i=i < color.length ? ++i :0;
+		document.querySelector(".lab-service").style.background = color[i]
+	})
+</script>
+<!-- end of javascript code -->
+
+<!-- link to javascript -->
+<script src="script.js"></script>
+</body>
+</html>
