@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/442484c489.js" crossorigin="anonymous"></script>
+		<!--link to CSS-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="blog.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<title>blog</title>
+
+	<!-- jquery code -->
+	<script src="https://kit.fontawesome.com/442484c489.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.2.js"></script>
+		<script>
+		$(document).ready(function(){
+			$('#icon').click(function(){
+				$('ul').toggleClass('show');
+			});
+		});
+		</script>
+		<!-- end of jquery code -->
+		
+</head>
+<body>
+	<header>
+<div id="menu-btn" class="fas fa-bars"></div>
+	<!--Krijimi i NavBar-it -->
+<a href="index.html" class="logo">D<span>METRICS</span></a>
+<div class="navbar">
+	<ul>
+	  <li><a href="services.html">Services</a></li>
+	  <li><a href="features.html">Features</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="aboutUs.html">About Us</a></li>
+    <li><a href="contactUs.html">Contact</a></li>
+    <li><a href="#become" id="login-btn" class="button">become a customer</a></li>
+   </ul>
+</div>
+
+<!-- krijimi i butonit per faqen responsive -->
+
+<label id="icon"> 
+		<i class="fas fa-bars"></i>
+	</label>
+</header>
+<main>
+	<section class="blogs">
+		<div class="blog1">
+ <img src="Images/21.jpg">
+
+ 		<p class="text">Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum.Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum </p>
+    </div>
+	
+
+	<div class="blog1">
+ <p>Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum.Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+ <img src="Images/22.jpg">
+
+	</div>
+
+	<div class="blog1">
+ <img src="Images/23.jpg">
+ <p>Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum.Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+
+	</div>
+
+	<div class="blog1">
+ <p>Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum.Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+ <img src="Images/21.jpg">
+
+	</div>
+
+	<div class="blog1">
+ <img src="Images/23.jpg">
+ <p>Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum.Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+
+	</div>
+
+	<div class="blog1">
+ <p>Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum.Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+ <img src="Images/22.jpg">
+
+	</div>
+
+	<div class="blog1">
+ <img src="Images/23.jpg">
+ <p>Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum.Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+	</div>
+<div class="blog1">
+ <p>Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum.Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum. Duis sed odio sit amet nibh vulpucursus a sit amek mauris.Proin gravida nibh vel auctor aliquet.
+	lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+		<img src="Images/21.jpg">
+
+	</div>
+	</section>
+</main>
+
+<!-- Footer -->
+
+<footer class="footer">
+	<div class="get-started">
+		<p class="started">get started now</p>
+		<p class="paragraph-1">Proin gravida nibh vel auctor aliquet.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet</p>
+		 <form>
+		 	<input type="text" name="email" placeholder="YOUR EMAIL">
+		 	<button>GET STARTED</button>
+		 </form>
+	</div>
+	<div class="social-media">
+       <i class="fa-brands fa-facebook-f"></i>
+       <i class="fa-brands fa-twitter"></i>
+       <i class="fa-brands fa-square-instagram"></i>
+       <i class="fa-brands fa-youtube"></i>
+		<p>&copy; Copyright 2022 DMetrics. All Rights Reserved. Design by TemplatesJungle.</p>
+	</div>
+</footer>
+
+<!-- link to javascript -->
+<script src="script.js"></script>
+</body>
+</html>
