@@ -1,0 +1,238 @@
+/*healthcare section*/
+.serve{
+	margin-top: 200px;
+}
+.serve article figure:hover{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+border-radius: 40%;
+}
+.serve img:hover{
+	color: red;
+}
+.lab-section{
+	background-image: url(service-image/healthcare2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+}
+.lab-service{
+	margin: 100px 50px 100px 50px;
+	padding: 50px;
+	height: 150px;
+	background: red;
+	border-collapse: collapse;
+	border-radius: 40px;
+}
+.lab-service:hover{
+	background:darkred;
+}
+.lab-service h1{
+	font-family: sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+}
+.lab-paragraph{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.lab-paragraph p{
+	margin: 5px;
+	font-size: 20px;
+	color: black;
+}
+.lab-paragraph ul li{
+	list-style-type: none;
+}
+.lab-paragraph ul li a{
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+}
+.lab-paragraph ul li a:hover{
+	font-size: 22px;
+	margin-left: 15px;
+	color: red;
+
+}
+
+/*manufacturing section*/
+
+
+.manufacturing-heading{
+text-align: center;
+width: 100%;
+height: 100px;
+background-image: linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+padding: 30px
+}
+.manufacturing-heading h1{
+	font-size: 30px;
+	font-weight: 600;
+	font-family: sans-serif;
+}
+.manufacturing-divide{
+	margin-top: 20px;
+	padding: 30px;
+}
+.manufacturing-divide h3{
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+color: red;
+text-align: center;
+}
+.manufacturing-divide .manufacturing-paragraph{
+	margin-left: -40px;
+	margin-top: 15px;
+	padding: 30px;
+}
+.manufacturing-list .manufacturing-list-paragraph{
+	margin-top: 10px;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.manufacturing-list li:hover{
+background-color: darkred;
+}
+.manufacturing-list li{
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+list-style: none;
+width: 250px;
+height: 40px;
+cursor: pointer;
+border-radius: 10px;
+padding: 10px;
+margin-left: -10px;
+}
+.manufacturing-list #li-first{
+	background-image: linear-gradient(to bottom right, #5761B2, #1FC5A8);
+
+}
+.manufacturing-list #li-second{
+background-image: linear-gradient(to bottom right, #FF512F, #DD2476);
+
+}
+.manufacturing-list #li-third{
+	background-image: linear-gradient(to bottom right, #FD8451, #FFBD6F);
+
+}
+
+.manufacturing-list{
+margin-top: 20px;
+margin-left: 500px;
+}
+.manufacturing-divide p{
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+
+}
+#lista1{
+	background-image: linear-gradient(to bottom right, #5761B2, #1FC5A8);
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#lista2{
+background-image: linear-gradient(to bottom right, #FF512F, #DD2476);
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#lista3{
+background-image: linear-gradient(to bottom right, #FD8451, #FFBD6F);
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/*corporate section*/
+
+.corporate-section{
+	margin: 30px;
+}
+
+.corporate-divide h2{
+text-align: center;
+padding: 10px;
+}
+.corporate-cart{
+	display: grid; 
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 10px;
+   height: 100%;
+   margin-top: 25px;
+}
+.corporate-cart figure{
+	 box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+padding: 10px;
+}
+.corporate-cart figcaption span{
+	font-family: sans-serif;
+	font-weight: 700;
+	display: block;
+}
+.corporate-section p{
+	margin-top: 20px;
+text-align: center;
+}
+
+/*hospitality section*/
+
+.hospitality-section{
+margin: 20px;
+
+}
+.hospitality-divide1{
+	height: 400px;
+	background-image: url(Images/hospitality2.jpg);
+    padding: 150px;
+}
+.hospitality-divide1 h2{
+text-align: center;
+font-weight: 700;
+color: red;
+font-family: sans-serif;
+font-size: 40px;
+text-shadow:3px 3px 20px #ff99cc,
+           -2px 1px 30px #ff99cc;
+}
+.hospitality-divide1 p{
+	margin-top: 100px;
+}
+.hospitality-divide2{
+background-color: #c3c3c6;
+}
+.hospitality-divide2 h2{
+	text-align: center;
+	padding: 30px;
+	font-size: 36px;
+	color: red;
+
+}
+.hospitality-divide2 p{
+	padding: 15px 50px;
+}
+.hospitality-divide3{
+   display: grid; 
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding: 50px;
+}
+.hospitality-divide3 p{
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 20px 30px;
+}
+.hospitality-divide3 p span{
+	display: block;
+	font-weight: 700;
+	color: red;
+	padding-bottom: 10px;
+	text-align: center;
+}
