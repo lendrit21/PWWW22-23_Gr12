@@ -1,4 +1,4 @@
-/*healthcare section*/
+*healthcare section*/
 .serve{
 	margin-top: 200px;
 }
@@ -190,7 +190,7 @@ margin: 20px;
 }
 .hospitality-divide1{
 	height: 400px;
-	background-image: url(Images/hospitality2.jpg);
+background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
     padding: 150px;
 }
 .hospitality-divide1 h2{
