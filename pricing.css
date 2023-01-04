@@ -1,0 +1,60 @@
+main{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+.prices{
+	padding: 20px;
+	margin-top: 200px;
+	background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+}
+.prices .price-paragraph{
+	text-align: center;
+	color: black;
+	font-size: 36px;
+}
+.prices p{
+	text-align: center;
+	font-size: 18px;
+	font-family: sans-serif;
+padding: 5px;
+}
+.price-1{
+	margin-top: 60px;
+}
+h1{
+	text-align: center;
+	margin-top: 50px;
+}
+.pricing{
+display: flex;
+flex-direction: row;
+padding: 30px
+}
+.pricing #cart-price{
+	width: 400px;
+	height: 400px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	margin: 10px;
+}
+.pricing #cart-price:hover{
+background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);}
+#cart-price h2{
+	text-align: center;
+	font-size: 40px;
+	padding: 20px;
+
+}
+#cart-price p{
+	font-size: 24px;
+	text-align: center;
+}
+#cart-price #price{
+	color: black;
+text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    margin-top:30px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
