@@ -6,7 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 	<link rel="stylesheet" type="text/css" href="aboutUsStyle.css">
-	
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+
+
+<!-- jquery code -->
+	<script src="https://kit.fontawesome.com/442484c489.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.2.js"></script>
+		<script>
+		$(document).ready(function(){
+			$('#icon').click(function(){
+				$('ul').toggleClass('show');
+			});
+		});
+		</script>
+		<!-- end of jquery code -->
 </head>	
 
 <body>
@@ -25,7 +38,11 @@
     <li><a href="#become" class="button">become a customer</a></li>
 </ul>
 </div>
-      
+      <!-- krijimi i butonit per faqen responsive -->
+
+<label id="icon"> 
+		<i class="fas fa-bars"></i>
+	</label>
 </header>
 	
 	<div class="section">
