@@ -160,7 +160,9 @@ header .navbar ul li a:hover{
 .content-section .social{
 	text-align: center;
 }
-
+.content{
+		margin-top: 200px;
+}
 }
 
 
