@@ -22,30 +22,32 @@
 		<!-- end of jquery code -->
 </head>
 <body>
+
 <header>
-	<div id="menu-btn" class="fas fa-bars"></div>
+<div id="menu-btn" class="fas fa-bars"></div>
 	<!--Krijimi i NavBar-it -->
-<a href="#" class="logo">D<span>METRICS</span></a>
+<a href="index.html" class="logo">D<span>METRICS</span></a>
 <div class="navbar">
 	<ul>
-	<li><a href="#services">Services</a></li>
-	<li><a href="#features">Features</a></li>
-    <li><a href="#pricing">Pricing</a></li>
-    <li><a href="#blog">Blog</a></li>
+	  <li><a href="services.html">Services</a></li>
+	  <li><a href="features.html">Features</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="blog.html">Blog</a></li>
     <li><a href="aboutUs.html">About Us</a></li>
     <li><a href="contactUs.html">Contact</a></li>
-    <li><a href="#become" class="button">become a customer</a></li>
-</ul>
+    <li><a href="#become" id="login-btn" class="button">become a customer</a></li>
+   </ul>
 </div>
-	
-	<!-- krijimi i butonit per faqen responsive -->
 
-      <label id="icon"> 
-    <i class="fas fa-bars"></i>
-     </label>
+<!-- krijimi i butonit per faqen responsive -->
+
+<label id="icon"> 
+		<i class="fas fa-bars"></i>
+	</label>
 </header>
 <main>
-	<!-- login form (become customer) -->
+
+<!-- login form (become customer) -->
 <div class="login-form-container">
     <span id="close-login-form" class="fas fa-times"></span>
      
@@ -82,14 +84,17 @@
         </form>
     </div>
 </div>
-<!--end of login form (become customer)  -->
-	
+
+<!-- pjesa home e webfaqes (pjesa fillestare e webfaqes) -->
+
 	<div class="home">
+<div id="menu-btn2" class="fas fa-bars"></div>
+
 		<article>
 			<h1 class="heading">optimization.<br>efficiency.<br>cost savings.</h1>
 		    <p>Achieve Bottom-Line Results with Strategic Procurement</p>
-		    <a href="#become" class="button">become a customer</a>
-		    <ul>
+        <a href="#become" id="login-btn" class="button">become a customer</a>
+		    	<ul>
 		    	<li><i class="fa-brands fa-microsoft"></i> Microsoft</li>
 		    	<li><i class="fa-brands fa-shopify"></i> Shopify</li>
 		    	<li><i class="fa-brands fa-microsoft"></i> Microsoft</li>
@@ -105,9 +110,8 @@
 		We're not all talk. But we do offer advice through a new approach to problem-solving.
 		 Using Teamtrax, we take a diagnostic look at your bussiness, and then provide a roadmap
 	    to product, proccess and supply chain solutions.
-	    <a href="#become" class="button">become a customer</a></p>
+	    <a href="#become" id="login-btn" class="button">become a customer</a></p>
 	</div>
-
 	<!-- ketu kemi bartur imazhet e logove -->
 	<div class="logo-image">
 		<img src="Images/georgiapacific.jfif">
@@ -122,11 +126,11 @@
 	    <p class="p2">we are people doing business with people.And we put our reputations on the line every
 	   day to ensure our clients have peace of mind knowing their locations accross the nation are
        receiving the same quality product and service from the best local partners.</p>
-       <a href="#become" class="button">become a customer</a></td>
+       <a href="#become" id="login-btn" class="button">become a customer</a></td>
        <td><img src="Images/laptop.jpg" alt="laptop"></td></tr>
 	</table>
-	</div>
-	<!-- kodi per pjesen who serve ne webfaqe -->
+</div>
+<!-- kodi per pjesen who serve ne webfaqe -->
 <div class="serve">
 	<p id="p3">who we serve</p>
 	<p class="p4">proin gravida nibh vel auctor aliquet.Aenean sollicitudin,</p>
@@ -150,7 +154,8 @@
        </figure>
          </article>
          </div>
-	 <!--kodi per pjesen e webfaqes WHATS NEW  -->
+
+         <!--kodi per pjesen e webfaqes WHATS NEW  -->
 <div class="whats-new">
 	<p class="whats">whats new</p>
 	<section class="cards">
@@ -165,7 +170,7 @@
 					   <p>Proin gravida nibh vel auctor aliquet.
 					   lorem quis bibendum auctor, nisi elit consequat ipsum</p>
                         <div class="border-button">
-					   	<a href="#" class="read-button">Read Articles <i class="fa-solid fa-arrow-right"></i></a>
+					   	<a href="blog.html" class="read-button">Read Articles <i class="fa-solid fa-arrow-right"></i></a>
 					   </div>
 				</div>
 			</figure>
@@ -182,7 +187,7 @@
 					   <p>Proin gravida nibh vel auctor aliquet.
 					   lorem quis bibendum auctor, nisi elit consequat ipsum</p>
 					   <div class="border-button">
-					   	<a href="#" class="read-button">Read Articles <i class="fa-solid fa-arrow-right"></i></a>
+					   	<a href="blog.html" class="read-button">Read Articles <i class="fa-solid fa-arrow-right"></i></a>
 					   </div>
                    
 				</div>
@@ -200,7 +205,7 @@
 					   <p>Proin gravida nibh vel auctor aliquet.
 					   lorem quis bibendum auctor, nisi elit consequat ipsum</p>
                         <div class="border-button">
-					   	<a href="#" class="read-button">Read Articles <i class="fa-solid fa-arrow-right"></i></a>
+					   	<a href="blog.html" class="read-button">Read Articles <i class="fa-solid fa-arrow-right"></i></a>
 					   </div>
 				</div>
 			</figure>
@@ -208,8 +213,7 @@
 	</section>
 </div>
 </main>
-	
-	<!-- Footer -->
+<!-- Footer -->
 
 <footer class="footer">
 	<div class="get-started">
@@ -228,5 +232,8 @@
 		<p>&copy; Copyright 2022 DMetrics. All Rights Reserved. Design by TemplatesJungle.</p>
 	</div>
 </footer>
+
+<!-- link to javascript -->
+<script src="script.js"></script>
 </body>
 </html>
