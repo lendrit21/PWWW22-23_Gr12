@@ -41,7 +41,7 @@ header .navbar ul{
 	position: fixed;
 	width: 100%;
 	height: 100vh;
-	background: blue;
+background-image: linear-gradient(to bottom right, #FF512F, #DD2476);
 	top: 150px;
 	left: -100%;
 	text-align: center;
@@ -379,7 +379,126 @@ img {
     font-size: 13px;
     padding: 10px 20px 10px 20px;
 }
+}
+
+/* ---BLOG Page*/
+@media(max-width:768px){
+    .blog1{
+        display: block;
+    }
+.blog1 img{
+    width: 500px;
+}
+.blog1 p{
+    font-size: 18px;
+}
 
 }
+
+/*Services Page*/
+
+@media(max-width:768px){
+    .serve article figure{
+        margin-left: -50px;
+    }
+    .serve article figure:hover{
+        width: 80px;
+        height: 80px;
+    }
+
+    .serve article figure a img{
+        width: 60px;
+        height: 60px;
+    }
+.lab-service{
+    height: 250px;
+}
+
+.lab-paragraph{
+    width: 400px;
+}
+.manufacturing-divide .manufacturing-paragraph{
+   font-size: 18px;
+}
+.manufacturing-list{
+    display: block;
+
+}
+.manufacturing-list li{
+    margin: 10px;
+    margin-left: -400px;
+}
+.manufacturing-list-paragraph{
+    display: block;
+    font-size: 18px;
+}
+.corporate-divide h2{
+    font-size: 30px;
+}
+.corporate-divide h4{
+    font-size: 22px;
+}
+.corporate-divide p{
+    font-size: 16px;
+}
+.corporate-section p{
+    font-size: 16px;
+}
+.hospitality-divide1 p{
+    font-size: 16px;
+    margin-top: 50px;
+}
+.hospitality-divide2 p{
+    font-size: 16px;
+}
+.hospitality-divide3{
+    display: block;
+}
+.hospitality-divide1 h2{
+    width: 400px;
+    margin-left: -150px;
+
+}
+.hospitality-divide1 p{
+    width: 380px;
+    margin-left: -130px;
+}
+
+}
+
+@media(max-width:450px){
+
+.serve article figure{
+        margin-left: -80px;
+    }
+
+.manufacturing-list li{
+    margin: 10px;
+    margin-left: -450px;
+}
+
+.get-started{
+    width: 400px;
+    margin-left: -95px;
+}
+}
+
+/*FEATURES Page*/
+@media(max-width:768px){
+
+.features-paragraph-2{
+padding: 30px;
+    width: 430px;
+}
+}
+
+/*Pricing Page*/
+@media(max-width:768px){
+
+.pricing{
+    display: block;
+}
+}
+
 
 
